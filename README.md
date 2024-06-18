@@ -57,4 +57,4 @@ python3 read_texts.py
 - The script will then ask you to map phone numbers to names for easy identification. Enter the names accordingly or type 'N' (case sensitive) to exclude a number.
 - In the case of frequent additions / removals of chat members, or certain contacts having multiple different numbers associated, some extra numbers may appear in the mapping step. At this point, omitting them with the "N" feature is simple.
 ## Contributing
-Contributions are welcome. This is not my original idea, I took inspiration from similar projects online and added my own sub-ideas. The code is all from scratch. If you have any ideas or improvements, feel free to open an issue or submit a pull request.
+Contributions are welcome. This is not my original idea, I took inspiration from similar projects online and added my own sub-ideas (but did not borrow code). If you have any ideas or improvements, feel free to open an issue or submit a pull request.
