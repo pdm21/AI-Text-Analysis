@@ -31,7 +31,7 @@ To get started with the iMessage Group Chat Analyzer, follow these steps:
 - OpenAI API Key: Obtain an API key from OpenAI
 1. Clone the Repository:
 ```sh
-git clone https://github.com/pdm21/text-analysis.git
+git clone https://github.com/pdm21/ai-text-analysis.git
 cd text-analysis
 ```
 2. Install Dependencies:
