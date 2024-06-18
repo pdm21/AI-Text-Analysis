@@ -13,9 +13,8 @@ Welcome to the iMessage Group Chat Analyzer! This project aims to provide insigh
 
 # How It Works
 1. Message Extraction:
-
-The script reads exported iMessage data stored in text files.
-Extracts messages from the specified group chat within the past week.
+- The script reads exported iMessage data stored in text files.
+- Extracts messages from the specified group chat within the past week.
 
 2. Data Processing:
 - Uses regular expressions to extract phone numbers and message content.
@@ -27,4 +26,7 @@ Prompts the user to map phone numbers to contact names for clarity.
 
 # Getting Started
 To get started with the iMessage Group Chat Analyzer, follow these steps:
-
+## Prerequisites
+Python 3.6+: Ensure you have Python installed on your system.
+OpenAI API Key: Obtain an API key from OpenAI
+1. Clone the Repository:
