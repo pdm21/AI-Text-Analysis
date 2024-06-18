@@ -27,6 +27,10 @@ Prompts the user to map phone numbers to contact names for clarity.
 # Getting Started
 To get started with the iMessage Group Chat Analyzer, follow these steps:
 ## Prerequisites
-Python 3.6+: Ensure you have Python installed on your system.
-OpenAI API Key: Obtain an API key from OpenAI
+- Python 3.6+: Ensure you have Python installed on your system.
+- OpenAI API Key: Obtain an API key from OpenAI
 1. Clone the Repository:
+```sh
+git clone https://github.com/yourusername/imessage-group-chat-analyzer.git
+cd imessage-group-chat-analyzer
+```
