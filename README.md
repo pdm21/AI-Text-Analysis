@@ -31,6 +31,30 @@ To get started with the iMessage Group Chat Analyzer, follow these steps:
 - OpenAI API Key: Obtain an API key from OpenAI
 1. Clone the Repository:
 ```sh
-git clone https://github.com/yourusername/imessage-group-chat-analyzer.git
-cd imessage-group-chat-analyzer
+git clone https://github.com/pdm21/test-analysis.git
+cd text-analysis
 ```
+2. Install Dependencies:
+```sh
+pip3 install pandas openai
+```
+3. Set Up OpenAI API Key:
+- Obtain your OpenAI API key from the OpenAI website.
+- Set the API key as an environment variable:
+```sh
+export OPENAI_API_KEY='your-api-key-here'
+```
+## Usage
+1. Export iMessage Data:
+- Export your iMessage chat data as text files.
+- Ensure that the files are saved in a directory that you can access.
+2. Run the Script:
+- Navigate to the directory containing the script and run it:
+```sh
+python3 read_texts.py
+```
+- You will be prompted to enter the name of the group chat you wish to analyze. For example, if your group chat is named "Friends", type Friends and press Enter.
+- The script will then ask you to map phone numbers to names for easy identification. Enter the names accordingly or type 'N' (case sensitive) to exclude a number.
+- In the case of frequent additions / removals of chat members, or certain contacts having multiple different numbers associated, some extra numbers may appear in the mapping step. At this point, omitting them with the "N" feature is simple.
+## Contributing
+Contributions are welcome. This is not my original idea, I took inspiration from similar projects online and added my own sub-ideas. The code is all from scratch. If you have any ideas or improvements, feel free to open an issue or submit a pull request.
